@@ -1,0 +1,10 @@
+<div class="card" *ngIf="room" style="width: 300px">
+    <img [src]="room.photo" class="card-img-top">
+    <div class="card-body">
+      <h4>{{ room.roomType }}</h4>
+      <p>
+        Price : {{ room.price }}<br>
+        Quantity {{ room.quantity }}
+      </p>
+    </div>
+</div>
